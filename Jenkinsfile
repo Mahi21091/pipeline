@@ -10,7 +10,7 @@ pipeline {
 			} 
 		}
 		
-		Parallel {
+		parallel {
 		stage ('deploy1') {
 			steps {
 				sh '''
